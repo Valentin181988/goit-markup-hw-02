@@ -1,3 +1,5 @@
+/*=============WebStudio=============*/
+
 /*=============Header=============*/
 .link-logo {
   text-decoration: none;
@@ -55,21 +57,21 @@
 }
 
 .header-button {
+  text-decoration: none;
+}
+
+.header-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
-}
-
-.header-button {
-  text-decoration: none;
+  color: #757575;
 }
 
 .header-button:hover,
-.header-button :focus {
+.header-button:focus {
   color: #2196f3;
 }
 
@@ -86,7 +88,12 @@
 .tel-link-header {
   text-decoration: none;
 }
-/*=============Header=============*/
+
+.tel-link-header:hover,
+.tel-link-header:focus {
+  color: #2196f3;
+}
+/*=============End Header=============*/
 
 /*=============Hero=============*/
 .hero-title {
@@ -121,7 +128,12 @@
 .modal-btn {
   cursor: pointer;
 }
-/*=============Hero=============*/
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #2196f3;
+}
+/*=============End Hero=============*/
 
 /*=============Advantages=============*/
 .advantages-list {
@@ -150,7 +162,7 @@
 
   color: #757575;
 }
-/*=============Advantages=============*/
+/*============= End Advantages=============*/
 
 /*=============Our job=============*/
 .our-job-list {
@@ -167,7 +179,7 @@
 .job-icons {
   list-style: none;
 }
-/*=============Our job=============*/
+/*============= End Our job=============*/
 
 /*=============Our team=============*/
 .our-team-list {
@@ -209,7 +221,7 @@
 
   color: #757575;
 }
-/*=============Our team=============*/
+/*============= End Our team=============*/
 
 /*=============Footer=============*/
 .link-logo-footer {
@@ -242,4 +254,15 @@
 .tel {
   /* color: rgba(255, 255, 255, 0.6); */
 }
-/*=============Footer=============*/
+
+.adress-link:hover,
+.adress-link:focus {
+  color: #2196f3;
+}
+/*=============End Footer=============*/
+
+/*=============End WebStudio=============*/
+
+/*=============Portfolio=============*/
+
+/*=============End Portfolio=============*/
