@@ -131,7 +131,8 @@
 
 .modal-btn:hover,
 .modal-btn:focus {
-  color: #2196f3;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 /*=============End Hero=============*/
 
@@ -264,5 +265,41 @@
 /*=============End WebStudio=============*/
 
 /*=============Portfolio=============*/
+.wigets {
+  list-style: none;
+}
 
+.wigets-link:hover,
+.wigets-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.projects {
+  list-style: none;
+}
+
+.projects-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.projects-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 /*=============End Portfolio=============*/
