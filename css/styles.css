@@ -121,3 +121,125 @@
 .modal-btn {
   cursor: pointer;
 }
+/*=============Hero=============*/
+
+/*=============Advantages=============*/
+.advantages-list {
+  list-style: none;
+}
+
+.advantages-title-points {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.advantages-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*=============Advantages=============*/
+
+/*=============Our job=============*/
+.our-job-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.job-icons {
+  list-style: none;
+}
+/*=============Our job=============*/
+
+/*=============Our team=============*/
+.our-team-list {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.our-team-blocks {
+  list-style: none;
+}
+
+.our-team-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.our-team-specialty {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*=============Our team=============*/
+
+/*=============Footer=============*/
+.link-logo-footer {
+  text-decoration: none;
+}
+
+.adress-list {
+  list-style: none;
+}
+
+.adress-link {
+  text-decoration: none;
+}
+
+.adress-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  /* color: #ffffff; */
+}
+.mail {
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.tel {
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+/*=============Footer=============*/
