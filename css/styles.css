@@ -1,24 +1,34 @@
 /*=============WebStudio=============*/
+:root {
+  --main-font: 'Raleway', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --accent-colour: #2196f3;
+}
 
-/*=============Header=============*/
-.link-logo {
+.list {
+  list-style: none;
+}
+
+.link {
   text-decoration: none;
 }
 
+/*=============Header=============*/
+
 .web {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-family: var(--main-font);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
 
-  color: #2196f3;
+  color: var(--accent-colour);
 }
 
 .studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -29,16 +39,8 @@
   color: #000000;
 }
 
-.menu {
-  list-style: none;
-}
-
-.menu-link-contacts {
-  list-style: none;
-}
-
 .menu-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -47,21 +49,13 @@
   color: #212121;
 }
 
-.menu-link {
-  text-decoration: none;
-}
-
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-colour);
 }
 
 .header-button {
-  text-decoration: none;
-}
-
-.header-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -72,11 +66,11 @@
 
 .header-button:hover,
 .header-button:focus {
-  color: #2196f3;
+  color: var(--accent-colour);
 }
 
 .tel-link-header {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -85,19 +79,15 @@
   color: #757575;
 }
 
-.tel-link-header {
-  text-decoration: none;
-}
-
 .tel-link-header:hover,
 .tel-link-header:focus {
-  color: #2196f3;
+  color: var(--accent-colour);
 }
 /*=============End Header=============*/
 
 /*=============Hero=============*/
 .hero-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -111,7 +101,7 @@
 }
 
 .modal-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -131,18 +121,15 @@
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-colour);
   color: #ffffff;
 }
 /*=============End Hero=============*/
 
 /*=============Advantages=============*/
-.advantages-list {
-  list-style: none;
-}
 
 .advantages-title-points {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -153,8 +140,7 @@
 }
 
 .advantages-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: var(--secondary-font);
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -167,7 +153,7 @@
 
 /*=============Our job=============*/
 .our-job-list {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -177,14 +163,11 @@
   color: #212121;
 }
 
-.job-icons {
-  list-style: none;
-}
 /*============= End Our job=============*/
 
 /*=============Our team=============*/
 .our-team-list {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -193,12 +176,9 @@
 
   color: #212121;
 }
-.our-team-blocks {
-  list-style: none;
-}
 
 .our-team-name {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -211,8 +191,7 @@
 }
 
 .our-team-specialty {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: var(--secondary-font);
   font-size: 16px;
   line-height: 1.19;
   /* identical to box height */
@@ -225,21 +204,9 @@
 /*============= End Our team=============*/
 
 /*=============Footer=============*/
-.link-logo-footer {
-  text-decoration: none;
-}
-
-.adress-list {
-  list-style: none;
-}
 
 .adress-link {
-  text-decoration: none;
-}
-
-.adress-link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: var(--secondary-font);
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -258,29 +225,22 @@
 
 .adress-link:hover,
 .adress-link:focus {
-  color: #2196f3;
+  color: var(--accent-colour);
 }
 /*=============End Footer=============*/
 
 /*=============End WebStudio=============*/
 
 /*=============Portfolio=============*/
-.wigets {
-  list-style: none;
-}
 
 .wigets-link:hover,
 .wigets-link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-colour);
   color: #ffffff;
 }
 
-.projects {
-  list-style: none;
-}
-
 .projects-list {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -292,8 +252,7 @@
 }
 
 .projects-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: var(--secondary-font);
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 187% */
