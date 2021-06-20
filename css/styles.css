@@ -39,6 +39,17 @@
   color: #000000;
 }
 
+.studio-footer {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 .menu-link {
   font-family: var(--secondary-font);
   font-weight: 500;
@@ -86,6 +97,10 @@
 /*=============End Header=============*/
 
 /*=============Hero=============*/
+.hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   font-family: var(--secondary-font);
   font-weight: 900;
@@ -97,7 +112,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /*---color: #ffffff;---*/
+  color: #ffffff;
 }
 
 .modal-btn {
@@ -112,18 +127,17 @@
   text-align: center;
   letter-spacing: 0.06em;
 
-  /*---color: #ffffff;---*/
+  color: #ffffff;
 }
 
 .modal-btn {
   cursor: pointer;
+  background-color: var(--accent-colour);
+  border-radius: 4px;
 }
 
 .modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--accent-colour);
-  color: #ffffff;
-}
+.modal-btn:focus 
 /*=============End Hero=============*/
 
 /*=============Advantages=============*/
@@ -205,6 +219,10 @@
 
 /*=============Footer=============*/
 
+.footer {
+  background-color: #2f303a;
+}
+
 .adress-link {
   font-family: var(--secondary-font);
   font-size: 14px;
@@ -232,6 +250,23 @@
 /*=============End WebStudio=============*/
 
 /*=============Portfolio=============*/
+.wigets-link {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.wigets-link {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
 
 .wigets-link:hover,
 .wigets-link:focus {
