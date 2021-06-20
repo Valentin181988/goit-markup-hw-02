@@ -16,6 +16,10 @@ body {
   font-weight: 700;
 }
 
+address {
+  font-style: normal;
+}
+
 .list {
   list-style: none;
 }
@@ -225,7 +229,6 @@ body {
 
 .adress-link {
   font-family: var(--secondary-font);
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
