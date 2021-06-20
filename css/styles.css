@@ -7,7 +7,10 @@
   --secondary-text-colour: #757575;
   --title-text-colour: #ffffff;
   --background-colour: #2f303a;
-  --wigets-link-background-color: #F5F4FA;
+  --wigets-link-background-color: #f5f4fa;
+  --logo-studio: #000000;
+  --mail-colour: rgba(255, 255, 255, 0.6);
+}
 
 .list {
   list-style: none;
@@ -40,7 +43,7 @@
 
   letter-spacing: 0.03em;
 
-  color: #000000;
+  color: var(--logo-studio);
 }
 
 .studio-footer {
@@ -240,7 +243,7 @@
 }
 .mail,
 .tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--mail-colour);
 }
 
 .adress-link:hover,
