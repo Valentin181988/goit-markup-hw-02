@@ -3,7 +3,11 @@
   --main-font: 'Raleway', sans-serif;
   --secondary-font: 'Roboto', sans-serif;
   --accent-colour: #2196f3;
-}
+  --main-text-colour: #212121;
+  --secondary-text-colour: #757575;
+  --title-text-colour: #ffffff;
+  --background-colour: #2f303a;
+  --wigets-link-background-color: #F5F4FA;
 
 .list {
   list-style: none;
@@ -47,7 +51,7 @@
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--title-text-colour);
 }
 
 .menu-link {
@@ -57,7 +61,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--main-text-colour);
 }
 
 .menu-link:hover,
@@ -72,7 +76,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary-text-colour);
 }
 
 .header-button:hover,
@@ -87,7 +91,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary-text-colour);
 }
 
 .tel-link-header:hover,
@@ -98,7 +102,7 @@
 
 /*=============Hero=============*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-colour);
 }
 
 .hero-title {
@@ -112,7 +116,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--title-text-colour);
 }
 
 .modal-btn {
@@ -127,7 +131,7 @@
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--title-text-colour);
 }
 
 .modal-btn {
@@ -150,7 +154,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--main-text-colour);
 }
 
 .advantages-text {
@@ -161,7 +165,7 @@
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-colour);
 }
 /*============= End Advantages=============*/
 
@@ -174,7 +178,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-colour);
 }
 
 /*============= End Our job=============*/
@@ -188,7 +192,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-colour);
 }
 
 .our-team-name {
@@ -201,7 +205,7 @@
   /* text-align: center; */
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-colour);
 }
 
 .our-team-specialty {
@@ -213,32 +217,30 @@
   /* text-align: center; */
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-colour);
 }
 /*============= End Our team=============*/
 
 /*=============Footer=============*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-colour);
 }
 
 .adress-link {
   font-family: var(--secondary-font);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  /* color: #ffffff; */
+  color: var(--title-text-colour);
 }
-.mail {
-  /* color: rgba(255, 255, 255, 0.6); */
-}
-
+.mail,
 .tel {
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .adress-link:hover,
@@ -260,18 +262,18 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-colour);
 }
 
 .wigets-link {
-  background-color: #f5f4fa;
+  background-color: var(--wigets-link-background-color);
   border-radius: 4px;
 }
 
 .wigets-link:hover,
 .wigets-link:focus {
   background-color: var(--accent-colour);
-  color: #ffffff;
+  color: var(--title-text-colour);
 }
 
 .projects-list {
@@ -283,7 +285,7 @@
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--main-text-colour);
 }
 
 .projects-title {
@@ -294,6 +296,6 @@
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-colour);
 }
 /*=============End Portfolio=============*/
