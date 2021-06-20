@@ -1,23 +1,21 @@
 /*=============WebStudio=============*/
 :root {
-  --main-font: 'Raleway', sans-serif;
-  --secondary-font: 'Roboto', sans-serif;
-  --accent-colour: #2196f3;
-  --main-text-colour: #212121;
-  --secondary-text-colour: #757575;
-  --title-text-colour: #ffffff;
-  --background-colour: #2f303a;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --primary-color: #212121;
+  --secondary-text-color: #757575;
+  --title-text-color: #ffffff;
+  --background-color: #2f303a;
   --wigets-link-background-color: #f5f4fa;
   --logo-studio: #000000;
-  --mail-colour: rgba(255, 255, 255, 0.6);
+  --mail-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  font-weight: 700;
-}
-
-address {
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--primary-color);
 }
 
 .list {
@@ -31,7 +29,7 @@ address {
 /*=============Header=============*/
 
 .web {
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -39,11 +37,11 @@ address {
 
   letter-spacing: 0.03em;
 
-  color: var(--accent-colour);
+  color: var(--accent-color);
 }
 
 .studio {
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -55,64 +53,61 @@ address {
 }
 
 .studio-footer {
-  font-family: var(--main-font);
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
-  color: var(--title-text-colour);
+  color: var(--title-text-color);
 }
 
 .menu-link {
-  font-family: var(--secondary-font);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: var(--main-text-colour);
 }
 
-.menu-link:active {
-  color: var(--accent-colour);
+.menu-link:visited {
+  color: var(--primary-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-colour);
+  color: var(--accent-color);
+}
+
+.menu-link.active-link {
+  color: var(--accent-color);
 }
 
 .header-button,
 .tel-link-header {
-  font-family: var(--secondary-font);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-color);
 }
 
 .header-button:hover,
 .header-button:focus {
-  color: var(--accent-colour);
+  color: var(--accent-color);
 }
 
 .tel-link-header:hover,
 .tel-link-header:focus {
-  color: var(--accent-colour);
+  color: var(--accent-color);
 }
 /*=============End Header=============*/
 
 /*=============Hero=============*/
 .hero {
-  background-color: var(--background-colour);
+  background-color: var(--background-color);
 }
 
 .hero-title {
-  font-family: var(--secondary-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -122,11 +117,10 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: var(--title-text-colour);
+  color: var(--title-text-color);
 }
 
 .modal-btn {
-  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -137,58 +131,44 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--title-text-colour);
+  color: var(--title-text-color);
 }
 
 .modal-btn {
   cursor: pointer;
-  background-color: var(--accent-colour);
+  background-color: var(--accent-color);
   border-radius: 4px;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-  color: var(--title-text-colour);
-  background-color: var(--accent-colour);
-}
 /*=============End Hero=============*/
 
 /*=============Advantages=============*/
 
 .advantages-title-points {
-  font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: var(--main-text-colour);
 }
 
 .advantages-text {
-  font-family: var(--secondary-font);
-  font-size: 14px;
   line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-color);
 }
 /*============= End Advantages=============*/
 
 /*=============Our job=============*/
 .our-job-list,
 .our-team-list {
-  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: var(--main-text-colour);
 }
 
 /*============= End Our job=============*/
@@ -196,7 +176,6 @@ address {
 /*=============Our team=============*/
 
 .our-team-name {
-  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -204,12 +183,9 @@ address {
 
   /* text-align: center; */
   letter-spacing: 0.03em;
-
-  color: var(--main-text-colour);
 }
 
 .our-team-specialty {
-  font-family: var(--secondary-font);
   font-size: 16px;
   line-height: 1.19;
   /* identical to box height */
@@ -217,34 +193,33 @@ address {
   /* text-align: center; */
   letter-spacing: 0.03em;
 
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-color);
 }
 /*============= End Our team=============*/
 
 /*=============Footer=============*/
 
 .footer {
-  background-color: var(--background-colour);
+  background-color: var(--background-color);
 }
 
 .adress-link {
-  font-family: var(--secondary-font);
-  font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: var(--title-text-colour);
+  color: var(--title-text-color);
 }
 .mail,
 .tel {
-  color: var(--mail-colour);
+  color: var(--mail-color);
 }
 
 .adress-link:hover,
 .adress-link:focus {
-  color: var(--accent-colour);
+  color: var(--accent-color);
 }
 /*=============End Footer=============*/
 
@@ -252,7 +227,6 @@ address {
 
 /*=============Portfolio=============*/
 .wigets-link {
-  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -260,8 +234,6 @@ address {
 
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: var(--main-text-colour);
 }
 
 .wigets-link {
@@ -271,30 +243,31 @@ address {
 
 .wigets-link:hover,
 .wigets-link:focus {
-  background-color: var(--accent-colour);
-  color: var(--title-text-colour);
+  background-color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .projects-list {
-  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
+}
 
-  color: var(--main-text-colour);
+.projects-links,
+.projects-links:visited {
+  color: var(--primary-color);
 }
 
 .projects-title {
-  font-family: var(--secondary-font);
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 187% */
 
   letter-spacing: 0.03em;
 
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-color);
 }
 /*=============End Portfolio=============*/
