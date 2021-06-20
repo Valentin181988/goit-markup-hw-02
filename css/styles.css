@@ -12,6 +12,10 @@
   --mail-colour: rgba(255, 255, 255, 0.6);
 }
 
+body {
+  font-weight: 700;
+}
+
 .list {
   list-style: none;
 }
@@ -67,12 +71,17 @@
   color: var(--main-text-colour);
 }
 
+.menu-link:active {
+  color: var(--accent-colour);
+}
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-colour);
 }
 
-.header-button {
+.header-button,
+.tel-link-header {
   font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 14px;
@@ -85,16 +94,6 @@
 .header-button:hover,
 .header-button:focus {
   color: var(--accent-colour);
-}
-
-.tel-link-header {
-  font-family: var(--secondary-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--secondary-text-colour);
 }
 
 .tel-link-header:hover,
@@ -144,7 +143,10 @@
 }
 
 .modal-btn:hover,
-.modal-btn:focus 
+.modal-btn:focus {
+  color: var(--title-text-colour);
+  background-color: var(--accent-colour);
+}
 /*=============End Hero=============*/
 
 /*=============Advantages=============*/
@@ -173,7 +175,8 @@
 /*============= End Advantages=============*/
 
 /*=============Our job=============*/
-.our-job-list {
+.our-job-list,
+.our-team-list {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 36px;
@@ -187,16 +190,6 @@
 /*============= End Our job=============*/
 
 /*=============Our team=============*/
-.our-team-list {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--main-text-colour);
-}
 
 .our-team-name {
   font-family: var(--secondary-font);
