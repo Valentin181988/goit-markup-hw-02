@@ -28,7 +28,8 @@ body {
 
 /*=============Header=============*/
 
-.web {
+.web,
+.studio {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -41,14 +42,6 @@ body {
 }
 
 .studio {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
   color: var(--logo-studio);
 }
 
@@ -240,6 +233,7 @@ body {
 .wigets-link {
   background-color: var(--wigets-link-background-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .wigets-link:hover,
